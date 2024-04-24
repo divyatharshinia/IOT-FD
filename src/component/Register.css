@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&display=swap');
+*{
+    font-family: "Protest Revolution", sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px;
+    width: 100vw;
+}
+
+ .login-form {
+    margin: 0 auto;
+    /* border: 1px solid rgb(27, 179, 37); */
+    background-color: #0f0c0c;
+
+    /* width: 400px;
+    height: 400px; */
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.login-text{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+.login-input{
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    color: black;
+}
+.login-input:hover{
+    border: 1px solid #4CAF50;
+
+
+}
+.login-button{
+    background-color: #4CAF50;
+    color:white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+.login-button:hover{
+    background-color: #4CAF50;
+}
+
+.signup-text{
+    margin-top: 20px;
+    text-align: center;
+}
+.sgnup{
+    color:#4CAF50;
+}
+.black-icon svg {
+    color: #d5d8e1 !important;
+  }
+/* 
+  .css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    background-color: #30333c;
+  } */
+  .css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    background-color: #30333c !important;
+ }
+ @media (min-width: 600px){
+.css-1orzy9s {
+    margin-left: 8px;
+    width: 50% !important;
+}
+ }
+
+ .appliance-form{
+    margin: 0 auto;
+ }
+
+

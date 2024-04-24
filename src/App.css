@@ -1,0 +1,33 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  transition: left 0.3s ease;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.toggle-button {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+background-color: black;
+}
+
+.css-mfh5ey-MuiTypography-root {
+  /* margin: 0; */
+  color: white;
+  border-radius: 3px !important;
+  padding: 5px;
+  background-color: #387e8a !important;
+  margin-left: 90px !important;
+  margin-top: 50px !important;
+  cursor: pointer;
+}
